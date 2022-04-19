@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "rootDir": "lib",
+    "baseUrl": "lib",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "typeRoots": ["./lib/@types", "./node_modules/@types"]
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["node_modules"]
+}
