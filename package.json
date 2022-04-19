@@ -1,8 +1,8 @@
 {
   "name": "notion-react",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Easily map Notion blocks to React components, completely customizable and type-safe.",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/ridafkih/notion-react.git"
